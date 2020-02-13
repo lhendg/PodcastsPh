@@ -8,5 +8,5 @@ What are the Top Podcasts in the Philippines?
 4. If you were going to start a podcast today, what would you start and why?
 
 ## Acquiring the dataset
-First, I collected all the links under the Popular Podcasts in iTunes separated by genres. Once I got all the links, I built the dataframe using the iTunes API. Since I cannot find a reliable Podcasts Chart for the Philippines, I encoded the Chart from spotify that can be found <a href='https://open.spotify.com/genre/podcast-charts-body' target=blank>here</a>. 
+First, I collected all the links under the Popular Podcasts in iTunes separated by genres. Once I got all the links, I built the dataframe using the iTunes API. Since I cannot find a reliable Podcasts Chart for the Philippines, I encoded the Chart from spotify that can be found <a href='https://open.spotify.com/genre/podcast-charts-body' target=_blank>here</a>. Then from there, I acquired the iTunes ID from the initial dataset, so I can scrape the rest of the data that I need to build the Spotify Charts dataset that can be seen on the index. 
 
